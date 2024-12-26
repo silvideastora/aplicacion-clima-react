@@ -1,69 +1,73 @@
 .container {
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-
 h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 form {
-    display: flex;
-    margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: rgb(40, 97, 163);
-    color: white;
-    border: none;
-    border: 4px;
-    cursor: pointer;
-    transition: 1s all ease;
+  padding: 10px 20px;
+  background-color: rgb(166, 172, 175);
+  color: rgb(39, 55, 70);
+  border: none;
+  border: 4px;
+  cursor: pointer;
+  transition: 1s all ease;
 }
 
 button:hover {
-    background-color: rgb(83, 151, 230);
+  background-color: rgb(123, 125, 125);
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-h1,h2{
-    color: white;
+h1,
+h2 {
+  color: white;
 }
 
 p {
-    margin-bottom: 5px;
-    color: white;
+  margin-bottom: 5px;
+  color: white;
 }
 
-img{
-    width: 100px;
-    height: auto;
-    margin-top: 10px;
+img {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
 }
 
-@media (max-width:900px){
-    .container{
-        max-width: 80%;
-    }
+.weather-card {
+  border: 1px solid white;
+}
 
-    h1{
-        font-size: 35px;
-    }
-    h2{
-        font-size: 25px;
-    }
+@media (max-width: 900px) {
+  .container {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
 }
